@@ -15,5 +15,7 @@ public class BukuMain11 {
         Buku11 bk2 = new Buku11("Self Reward", "Maheera Ayesha", 160, 29, 59000);
         bk2.terjual(11);
         bk2.tampilInformasi();
+
+        Buku11 BukuGhoffar = new Buku11("Fihi Ma Fihi", "Jalaluddin Rumi", 529, 100, 90000);
     }
 }
