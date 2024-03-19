@@ -13,9 +13,10 @@ public class MainPangkat {
         for (int i = 0; i < elemen; i++) {
             png[i] = new Pangkat();
             System.out.println("Masukkan nilai yang hendak dipangkatkan: ");
-            png[i].nilai = sc.nextInt();
+            int nilai = sc.nextInt();
             System.out.println("Masukkan nilai pemangkat: ");
-            png[i].pangkat = sc.nextInt();
+            int pangkat = sc.nextInt();
+            png[i] = new Pangkat(nilai, pangkat);
         }
 
         System.out.println("HASIL PANGKAT - BRUTE FORCE");

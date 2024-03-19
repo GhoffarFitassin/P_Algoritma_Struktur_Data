@@ -3,6 +3,13 @@ package minggu5;
 public class Pangkat {
     public int nilai,pangkat;
 
+    public Pangkat(){
+        
+    }
+    public Pangkat(int nil, int png){
+        nilai = nil;
+        pangkat = png;
+    }
     int pangkatBF(int a, int n){
         int hasil = 1;
         for (int i = 0; i < n; i++) {
