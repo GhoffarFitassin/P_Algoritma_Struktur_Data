@@ -28,6 +28,14 @@ public class PencarianBuku11 {
         }
         return posisi;
     }
+    public Buku FindBuku(int cari) {
+        for (int i = 0; i < listBk.length; i++) {
+            if (listBk[i].kodeBuku == cari) {
+                return listBk[i];
+            }
+        }
+        return null;
+    }
 
     public void TampilPosisi(int x, int pos) {
         if (pos != -1) {
