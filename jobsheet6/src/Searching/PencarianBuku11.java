@@ -22,7 +22,7 @@ public class PencarianBuku11 {
         int posisi = -1;
         for (int i = 0; i < listBk.length; i++) {
             if (listBk[i].kodeBuku == cari) {
-                i = posisi;
+                posisi = i;
                 break;
             }
         }
